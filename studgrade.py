@@ -1,14 +1,12 @@
 import sys
 
 if len(sys.argv) == 7:
-    name = sys.argv[1]
-    marks_1 = int(sys.argv[2])
-    marks_2 = int(sys.argv[3])
-    marks_3 = int(sys.argv[4])
-    marks_4 = int(sys.argv[5])
-    marks_5 = int(sys.argv[6])
+    marks_1 = int(sys.argv[1])
+    marks_2 = int(sys.argv[2])
+    marks_3 = int(sys.argv[3])
+    marks_4 = int(sys.argv[4])
+    marks_5 = int(sys.argv[5])
 else:
-    name = "xyz"
     marks_1 = 50
     marks_2 = 70
     marks_3 = 85
@@ -33,7 +31,6 @@ elif avg >= 40:
 else:
     grade = "Fail"
 
-print("File:", name)
 print("Eng: ",marks_1)
 print("Math: ",marks_2)
 print("DevOps: ",marks_3)
