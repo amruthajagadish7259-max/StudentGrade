@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) == 7:
+if len(sys.argv) == 6:
     marks_1 = int(sys.argv[1])
     marks_2 = int(sys.argv[2])
     marks_3 = int(sys.argv[3])
