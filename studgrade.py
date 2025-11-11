@@ -5,8 +5,6 @@ if len(sys.argv)==5:
      marks_3=sys.argv[2]
      marks_4=sys.argv[3]
      marks_5=sys.argv[4]
-
-
 else:
      marks_1=50
      marks_2=70
@@ -14,8 +12,8 @@ else:
      marks_4=90
      marks_5=85
 
-print(f"English:{marks_1}")
-print(f"DM:{marks_2}")
+print("English", marks_1)
+print("Maths", marks_2)
 print(f"Devops:{marks_3}")
 print(f"SSW:{marks_4}")
 print(f"SE:{marks_5}")
