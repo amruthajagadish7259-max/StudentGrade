@@ -13,6 +13,25 @@ else:
      marks_3=85
      marks_4=90
      marks_5=85
+     
+total=marks_1+marks_2+marks_3+marks_4+marks_5
+avg=total/5
+
+if(avg>=90):
+     grade=A
+elif(avg>=80):
+     grade=B
+elif(avg>=70):
+     grade=C
+elif(avg>=60):
+     grade=D
+elif(avg>=50):
+     grade=E
+elif(avg>=40):
+     grade=F
+else:
+     grade="Fail"
+
 
 print(f"file:{name}")
 print(f"Eng:{marks_1}")
@@ -26,4 +45,5 @@ avg=total/5
 
 print(f"The total marks:{total}")
 print(f"Average:{avg}")
+print("Grade",grade)
      
