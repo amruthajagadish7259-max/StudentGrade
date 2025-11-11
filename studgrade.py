@@ -40,8 +40,8 @@ print(f"Devops:{marks_3}")
 print(f"SSW:{marks_4}")
 print(f"SE:{marks_5}")
 
-total=marks_1+marks_2+marks_3+marks_4+marks_5
-avg=total/5
+total = marks_1+marks_2+marks_3+marks_4+marks_5
+avg = total / 5
 
 print(f"The total marks:{total}")
 print(f"Average:{avg}")
